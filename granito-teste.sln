@@ -7,6 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jurosApi", "jurosApi\jurosA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculaJurosApi", "calculaJurosApi\calculaJurosApi.csproj", "{4FE48FA6-3545-4000-A9C7-F030145B2354}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testes", "testes", "{12D7F98A-6F21-4414-B8DA-36DA01B6C8C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "calculaJurosUnitTestes", "calculaJurosUnitTestes", "{9959EFAD-F3C4-4D6D-A0D5-8D7ED25B0B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "CalculaJurosUnitTeste\UnitTest.csproj", "{ED1BD6F3-7569-4C01-BE2B-1281CB362FDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "calculaJurosApiIntegrationTest", "calculaJurosApiIntegrationTest", "{536F6F26-BC28-4B8B-8F4C-01C9B9BB7209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "IntegrationTest\IntegrationTest.csproj", "{5DF8E359-4905-40F9-8C53-AA054D3A64D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +31,23 @@ Global
 		{4FE48FA6-3545-4000-A9C7-F030145B2354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE48FA6-3545-4000-A9C7-F030145B2354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE48FA6-3545-4000-A9C7-F030145B2354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1BD6F3-7569-4C01-BE2B-1281CB362FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1BD6F3-7569-4C01-BE2B-1281CB362FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1BD6F3-7569-4C01-BE2B-1281CB362FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1BD6F3-7569-4C01-BE2B-1281CB362FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF8E359-4905-40F9-8C53-AA054D3A64D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF8E359-4905-40F9-8C53-AA054D3A64D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF8E359-4905-40F9-8C53-AA054D3A64D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF8E359-4905-40F9-8C53-AA054D3A64D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9959EFAD-F3C4-4D6D-A0D5-8D7ED25B0B33} = {12D7F98A-6F21-4414-B8DA-36DA01B6C8C2}
+		{ED1BD6F3-7569-4C01-BE2B-1281CB362FDD} = {9959EFAD-F3C4-4D6D-A0D5-8D7ED25B0B33}
+		{536F6F26-BC28-4B8B-8F4C-01C9B9BB7209} = {12D7F98A-6F21-4414-B8DA-36DA01B6C8C2}
+		{5DF8E359-4905-40F9-8C53-AA054D3A64D7} = {536F6F26-BC28-4B8B-8F4C-01C9B9BB7209}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {276501F2-6353-45F6-9BFF-92F121126D29}
